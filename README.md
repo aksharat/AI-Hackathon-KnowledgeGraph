@@ -18,7 +18,10 @@ The Urban Planner & Relocation Assistant aims to help users make informed decisi
 ## Workflow
 ![Workflow Diagram](img/workflow.jpeg)
 
-## Examples
+## How It Works
+1. Input data about the user’s preferences and requirements.
+2. Backend processes the query using Neo4j and retrieves relevant insights.
+3. In future iterations, leverage LLMs to refine recommendations and handle complex queries.
 
 ### Graph Creation
 ![Graph Creation](img/graph-creation.png)
@@ -36,11 +39,6 @@ The Urban Planner & Relocation Assistant aims to help users make informed decisi
   - Add more granular data points, such as environmental factors, accessibility scores, and housing options.
 - **Real-World Application**:
   - Build an intuitive user interface for seamless interaction.
-
-## How It Works
-1. Input data about the user’s preferences and requirements.
-2. Backend processes the query using Neo4j and retrieves relevant insights.
-3. In future iterations, leverage LLMs to refine recommendations and handle complex queries.
 
 ## Tech Stack
 - **Programming Language**: Go

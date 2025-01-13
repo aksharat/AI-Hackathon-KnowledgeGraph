@@ -15,7 +15,21 @@ The Urban Planner & Relocation Assistant aims to help users make informed decisi
 3. **User Interaction**:
    - Implemented a system to accept user queries and provide relevant results based on the graph database.
 
-### Next Steps:
+## Workflow
+![Workflow Diagram](img/workflow.jpeg)
+
+## Examples
+
+### Graph Creation
+![Graph Creation](img/graph-creation.png)
+
+### Graph Data Generation
+![Graph Data Generation](img/graph-gen.png)
+
+### Graph Response Fetch
+![Graph Response Fetch](img/graph-response-fetch.png)
+
+## Next Steps
 - **LLM Integration**:
   - Enhance the system with **Large Language Model (LLM)** functionality to process natural language queries and generate detailed, personalized insights.
 - **Feature Expansion**:
@@ -23,12 +37,12 @@ The Urban Planner & Relocation Assistant aims to help users make informed decisi
 - **Real-World Application**:
   - Build an intuitive user interface for seamless interaction.
 
-## How It Works:
+## How It Works
 1. Input data about the user’s preferences and requirements.
 2. Backend processes the query using Neo4j and retrieves relevant insights.
 3. In future iterations, leverage LLMs to refine recommendations and handle complex queries.
 
-## Tech Stack:
+## Tech Stack
 - **Programming Language**: Go
 - **Database**: Neo4j
 - **Future Enhancements**: Integration with LLMs
